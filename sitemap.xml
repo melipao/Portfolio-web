@@ -1,0 +1,8 @@
+<? xml version="1.0" encoding="utf-8"?>
+<urlset xmlns="mlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+	<url> <loc> http://sudominio.com.co/index.html</loc></url>
+	<url> <loc> http://sudominio.com.co/acerca.html</loc></url>
+	<url> <loc> http://sudominio.com.co/servicios.html</loc></url>
+	<url> <loc> http://sudominio.com.co/trabajos.html</loc></url>
+	<url> <loc> http://sudominio.com.co/contacto.html</loc></url>
+</urlset>

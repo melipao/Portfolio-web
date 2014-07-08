@@ -1,0 +1,99 @@
+<DOCTYPE! html>
+<html lang="es">
+<head>
+	<meta charset="utf-8" />
+	<title>Sitio con Responsive Webdesign en HTML5, CSS3 y Jqueary</title>
+	<meta name="description" content= "Bienvenido a mi portafolio web hecho en HTML5, CSS3 y Jqueary con responsive webdesign"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1"/> <!-- Para que se ajuste al ancho de la pantalla de cualquier dispositivo-->
+	<link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+	<link type="text/plain" rel="author" href="humans.txt" />
+	<link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" />
+	<link rel="sitemap" type="application/xml" tittle="sitemap" href="sitemap.xml"/>
+	<link rel="stylesheet" href="css/estilos.css" />
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+	<script src="js/jquery.flexslider-min.js"></script>
+	<script type="text/javascript">
+		$(window).load(function() {
+			$('.flexslider').flexslider();
+		});
+	</script>
+	<!--[if lt IE 9]>
+		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]--> <!--Para que los navegadores antiguos conviertan las nuevsa etiquetaas con codigo javascript, y puedan interpretarlas -->
+
+
+</head>
+<body>
+	<header>
+		<h1>
+			<a href="index.html">
+				<img class="fade" alt="Portafolio web" src="img/bextlan-logo.png"/>
+			</a>
+		</h1>
+		<nav>
+			<ul>
+				<li><a href="index.html">Inicio</a></li>
+				<li><a href="acerca.html">Acerca</a></li>
+				<li><a href="servicios.html">Servicios</a></li>
+				<li><a href="trabajos.html">Trabajos</a></li>
+				<li><a href="contacto.html">Contacto</a></li>
+			</ul>
+		</nav>
+	</header>
+	<section id="contenido">
+		<section id="principal">
+			<article id="galeria-inicio" >
+					<div class="flexslider">
+					    <ul class="slides">
+					    	<li>
+					    		<a href="http://bextlan.com"><img src="img/slide-0.png" /></a>
+					    		<p class="flex-caption">Imagen 1</p>
+					    	</li>
+					    	<li>
+					    		<img src="img/slide-1.png" />
+					    		<p class="flex-caption">Curso HTML5</p>
+					    	</li>
+					    	<li>
+					    		<img src="img/slide-2.png" />
+					    	</li>
+					    	<li>
+					    		<a href="http://bextlan.com"><img src="img/slide-3.png" /></a>
+					    		<p class="flex-caption">Curso CSS3</p>
+					    	</li>
+					    </ul>
+		 		   </div>
+			</article> 
+		</section>
+		<aside> <!-- en ASIDE siempre va contenido que no es relevante -->
+
+			<!-- TWITTER -->
+			
+			<script src="http://platform.twitter.com/widgets.js"> </script>
+			<a href="http://twitter.com/share" class="twitter-share-button" data-text="#Aprendiento HTML5, CSS#, jQuery!!" data-url="http://www.bextlan.com" data-count="vertical">Twittear</a>
+			<br> </br>
+
+			<!-- FB -->
+			
+			<div id="fb-root"></div>
+			<script src="http://connect.facebook.net/es_LA/all.js#xfbml=1"></script>
+			<!-- <fb:like href="http://facebook.com/bextlan" send="false" layout="box_count" show-faces="false" font="tahoma"></fb:like>
+		     -->
+
+		     <div class="fb-like" data-href="https://facebook.com/melipaots" data-layout="box_count" data-action="like" data-show-faces="false" data-share="false"></div>
+			
+			<br> </br>
+			<!-- PUBLICIDAD -->
+			<figure>
+				<a class="fade" href="http://geekonos.com" target="_blank">
+					<img src="img/logo-geekonos.png" alt="geekonos" />
+					<figcaption>Geekonos</figcaption>
+				</a>
+			</figure>
+			
+		</aside>
+	</section>
+	<footer>
+		Aprendiendo HTML5, CSS3, jQuery y Responsive Web <a rel="author" href=" http://twitter.com/melipaots">@melipaots </a>
+	</footer>
+</body>
+</html>

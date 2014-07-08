@@ -1,0 +1,14 @@
+/* Sitio con Responsive Webdesign en HTML5, CSS3 y Jqueary - http://bextlan.com */
+
+/* TEAM */
+	Autor:Melissa Torregrosa
+	Contact: melipaots[at]gmail.com
+	Twitter: @melipaots
+	From:Barranquilla, Colombia
+	
+	/* SITE */
+	Last update:2014/07/02
+	Language: Español
+	Standars:HTML5, CSS3, JavaScript
+	Components: jQuery
+	IDE: Notepad++, FileZilla, Photoshop
